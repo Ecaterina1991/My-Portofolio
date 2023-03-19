@@ -71,7 +71,7 @@ Bold: 700
 }
 
 body {
-  width: 1024px;
+  width: 100vw;
   padding: 30px;
 }
 
@@ -79,36 +79,44 @@ html {
   font-size: 62.5%;
 }
 
-nav {
+/*? /////-HEADER//////////////////////////////-////////////////// */
+
+/* nav {
   position: absolute;
-  /* background-color: lightgray; */
+   
   top: 470px;
   left: 47px;
   z-index: 1;
 }
+ */
 
 nav > a {
-  font-size: 18px;
-  margin: 0 25px 0 25px;
+  font-size: 24px;
+  margin: 20px 40px 20px 40px;
   text-decoration: none;
   color: #000e0e;
 }
 
-.home-header {
-  position: relative;
+.nav-wrapper {
+  text-align: center;
+  padding: 25px;
+}
 
-  background-image: url("images/img1.jpg");
-  height: 450px;
-  background-position: center;
-  background-size: cover;
-  z-index: 2;
+.home-header {
+  /* position: relative; */
+
+  /* z-index: 2; */
 }
 
 .home-header-p {
+  background-image: url("images/img1.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
   font-size: 44px;
   font-weight: 700;
   text-align: center;
-  position: absolute;
+  /* position: absolute; */
   color: #000e0e;
   top: 60px;
   left: 100px;
@@ -116,19 +124,23 @@ nav > a {
 
 .front-name {
   font-size: 52px;
+  text-align: left;
 }
 
+/**** Hero section ******************************** */
+
 .hero-section {
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
-  top: 565px;
-  left: 30px;
-  z-index: 0;
+  /* top: 565px;
+  left: 30px; */
+  /* z-index: 0; */
   color: #000e0e;
   background-color: #fff;
 }
 
 .front-cite {
+  padding: 20px;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -141,4 +153,18 @@ nav > a {
 .cite-wrapper {
   padding-bottom: 30px;
   background-color: #a7c2c2;
+}
+
+/* !!!!!! /////THE LAST SECTION/////////////////// */
+.last-section {
+  /* position: absolute; */
+  display: inline-block;
+  /* top: 900px; */
+}
+
+.laptop-text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  width: 30%;
 }
